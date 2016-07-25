@@ -1,0 +1,208 @@
+/*less2Css*/
+/* 导入reset */
+body {
+  width: 100%;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-family: "Microsoft YaHei", "宋体", simsun, tahoma, arial, "宋体", sans-serif;
+}
+/* //清除浮动 */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  conent: "";
+  display: block;
+  clear: both;
+}
+.fl {
+  float: left;
+  display: inline-block;
+}
+.fr {
+  float: right;
+  display: inline-block;
+}
+.of {
+  overflow: hidden;
+}
+.wm {
+  width: 100%;
+  box-sizing: border-box;
+}
+/* //定位匹配 */
+/* //混合 */
+.border {
+  border: 1px solid pink;
+}
+/* //混合可带参数(默认) */
+/*=========register==========*/
+.d0 {
+  display: none;
+}
+.bs {
+  box-sizing: border-box;
+}
+input {
+  border: 0;
+}
+a {
+  color: #3c99cd;
+}
+input[type="checkbox"] {
+  border: 1px solid #ccc;
+  width: 12px;
+  height: 12px;
+}
+.regBg {
+  background-image: linear-gradient(45deg, #58bae1 0%, #5abbdd 15%, #5bbcdc 23%, #5bbcdb 23%, #5cbdda 31%, #64c4c9 100%);
+  width: 100%;
+  height: 4.37rem;
+  position: relative;
+}
+.regform,
+.logform {
+  position: absolute;
+  left: 36%;
+  top: 27%;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px 0px rgba(177, 177, 177, 0.5);
+  width: 4.2rem;
+  box-sizing: border-box;
+}
+.regform {
+  padding: 0.2rem 0.3rem 0.5rem;
+}
+.regTit {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid #eaeaea;
+}
+.inb {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.regTit a:hover {
+  color: #3c99cd;
+  box-sizing: border-box;
+  border-bottom: 2px solid #3c99cd;
+}
+.regTit span {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  display: block;
+  text-align: center;
+}
+.perReg,
+.comReg {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.perReg {
+  color: #3c99cd;
+}
+.comReg {
+  color: #e5e5e5;
+}
+.personReg,
+.companyReg {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.2rem 0.3rem 0;
+}
+.companyReg {
+  display: none;
+}
+.personReg div,
+.companyReg div {
+  margin-bottom: 0.18rem;
+  position: relative;
+}
+.personReg .mb0,
+.companyReg .mb0 {
+  margin-bottom: 0;
+}
+.inptT {
+  font-size: 12px;
+  line-height: 0.14rem;
+  color: #9b9b9b;
+}
+.inptText {
+  width: 100%;
+  background: #f6f6f6;
+  margin-top: 0.1rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.tishi,
+.tishi0 {
+  color: red;
+}
+.inptText1,
+.inptText2 {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  margin-top: 0.1rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.inptText1 {
+  background: #f6f6f6;
+}
+.inptText2 {
+  background: #3c99cd;
+  color: #fff;
+  text-align: center;
+}
+.agree {
+  text-align: center;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin: 0.3rem 0;
+}
+.agree a {
+  color: #3c99cd;
+}
+.regBtn,
+.logBtn {
+  display: block;
+  background: #3c99cd;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.regBtn2,
+.logBtn2 {
+  margin-top: 0.51rem;
+  text-align: center;
+}
+.regBtn2 a,
+.logBtn2 a {
+  font-size: 16px;
+}
+/*登录*/
+.logform {
+  padding: 0.45rem 0.6rem 0.48rem;
+}
+.mt26 {
+  margin: 0.26rem 0 0.12rem;
+}
+.choose {
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+}
+.frgt {
+  float: right;
+  display: inline-block;
+}

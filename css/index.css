@@ -1,0 +1,12 @@
+/*less2Css*/
+.test {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ddd;
+  color: blue;
+}
+.wrap {
+  width: 100%;
+  height: 200px;
+  background: red;
+}

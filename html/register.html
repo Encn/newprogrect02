@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- <link rel="stylesheet" href="../css/PC-reset.css" />
+	<link rel="stylesheet" href="../css/common.css" />  -->
+	<!-- <script src="../src/rem.js"></script> -->
+</head> 
+<body>
+	<div class="regBg">
+		<h1 class="logo"></h1>
+		<section class="regform">
+			<div class="regTit">
+				<span><a class="perReg">个人注册</a></span>
+				<span><a class="comReg">企业注册</a></span>
+			</div>
+			<!-- 个人注册 -->
+			
+				<div class="personReg">
+				<form action="" name="fomr1" id="form1">
+					<div>
+						<p class="inptT">手机号</p>
+						<input class="inptText tel" type="text" placeholder="请输入手机号">
+						<p class="tishi"></p>
+					</div>
+					<div>
+						<p class="inptT">验证码</p>
+						<div class="of">
+						<input class="inptText1" type="text" placeholder="请输入验证码">
+						<a href="javascript:();" class="inptText2">发送验证码</a>
+						</div>
+						<p class="tishi"></p>
+					</div>
+					<div class="mb0">
+						<p class="inptT">密码</p>
+						<input class="inptText password" type="password" placeholder="请输入密码">
+						<p class="tishi"></p>
+					</div>
+					<p class="agree"><span><input type="checkbox"></span>我已阅读并同意<a href="javascript:;">《5A任务服务协议》</a></p>
+					<a href="javascript:;" class="regBtn">立即注册</a>
+					<p class="regBtn2">已有帐号？<a href="login.html">立即登录&gt;</a></p>
+				</form>
+				</div>
+			
+			<!-- 企业注册 -->
+			
+				<div class="companyReg">
+				<form action="" name="form2" id="form2">
+					<div>
+						<p class="inptT">企业名称</p>
+						<input type="text" class="inptText">
+						<p class="tishi0"></p>
+					</div>
+					<div>
+						<p class="inptT">联系人</p>
+						<input type="text" class="inptText">
+						<p class="tishi0"></p>
+					</div>
+					<div>
+						<p class="inptT">联系人手机</p>
+						<input type="text" class="inptText tel0">
+						<p class="tishi0"></p>
+					</div>
+					<div>
+						<p class="inptT">验证码</p>
+						<div class="of">
+							<input class="inptText1" type="text" placeholder="请输入验证码">
+							<a href="javascript:();" class="inptText2">发送验证码</a>
+						</div>
+						<p class="tishi0"></p>
+					</div>
+					<div class="mb0">
+						<p class="inptT">密码</p>
+						<input type="password" class="inptText password0">
+						<p class="tishi0"></p>
+					</div>
+					<p class="agree"><span><input type="checkbox"></span>我已阅读并同意<a href="javascript:;">《5A任务服务协议》</a></p>
+					<a href="javascript:;" class="regBtn">立即注册</a>
+					<p class="regBtn2">已有帐号？<a href="#">立即登录&gt;</a></p>
+				</form>
+				</div>
+			
+		</section>
+	</div>
+
+</body>
+<!-- <script src="../src/jquery.min.js"></script>
+ <script src="../src/register.js"></script>   
+-->
+ <script src="../build/reg.js"></script>
+ 
+<script>
+$(document).ready(function(){
+	$(".comReg").click(function(){
+		$(".personReg").hide();
+		$(".companyReg").show();
+	})
+	$(".perReg").click(function(){
+		$(".personReg").show();
+		$(".companyReg").hide();
+	})
+})
+	
+</script>
+</html>
